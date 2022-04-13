@@ -1,5 +1,4 @@
 # Discord_ChatBot
-A basic discord chatbot
 ## Introduction
 Conversational information access is a rapidly growing field which has gained significant attention in the past few years. A movie recommendation chat-bot is a task oriented recommender system that assists its users in accomplishing recommendation-oriented goals through a multi-turn conversational interaction. Currently in the market there are a broad range of dialogue systems and chat-bots. However, the task of conversational recommendation is characterized by a set of unique needs, which, in our case is related to movies. Further, these preferences may evolve or change during the course of interaction. For example, a user might want to get a movie recommendation based on their genre preference or mood and later may want to find out about streaming platforms. In addition to this, most of the chat services available are closed source commercial products. Hence we chose to build a customized Discord bot for the specific purpose of movie recommendation.
 
