@@ -3,7 +3,7 @@ from neuralintents import GenericAssistant
 import os 
 import nltk
 
-chatbot = GenericAssistant(r'C:\Users\Dheeraj\Downloads\intents.json')
+chatbot = GenericAssistant('Knowledge_base.json')
 chatbot.train_model()
 chatbot.save_model()
 
