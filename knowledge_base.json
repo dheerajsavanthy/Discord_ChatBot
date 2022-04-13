@@ -1,0 +1,127 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi there", "How are you", "Is anyone there?","Hey", "Hello", "Good day"],
+   "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "noanswer",
+   "patterns": [],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+  {"tag": "options",
+   "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?", "What are your options?"],
+   "responses": ["I can recommend movies to you based on the genre you want to watch, the platform you use, the movie ratings, or just a random movie"]
+  },
+  {"tag": "netflix",
+  "patterns": ["What is on nexflix?", "Can you recommend something on Netflix?", "What's good on Netflix?"],
+  "responses": ["You should watch Bridgerton","Better Call Saul is a good show", "The Adam Project is a good choice", "I would suggest The In Between", "The Bubble sounds like what you're looking for"]
+ },
+  {"tag": "hulu",
+  "patterns": ["What is on hulu?", "Can you recommend something on Hulu?", "What's good on Hulu?"],
+  "responses": ["Parasite is my recommendation", "I suggest Akira", "I would recommend Sputnik", "Palm Springs is a good choice", "Check out Portrait of a Lady on Fire"]
+  },
+{"tag":"disney+",
+  "patterns":["What is on disney+?", "Can you recommend something on Disney+?", "What's good on Disney+?"],
+  "responses":["I would recommend Luca", "You should check out Soul", "I suggest Hamilton", "Safety", "Turning Red"]
+},
+  {"tag": "amazon_prime",
+  "patterns": ["What is on amazon prime video?", "Can you recommend something on Amazon Prime Video?", "What's good on Amazon Prime?"],
+  "responses": ["Moonfall is a good choice", "I recommend All the Old Knives", "You should check out My Son", "Horizon Line might be just what you're looking for", "You can watch Master", "The Tomorrow War is a solid option"]
+ },
+ {"tag": "genre_comedy",
+  "patterns": ["Can you recommend a comedy?", "Suggest a funny show?", "What's a good comedy?"],
+  "responses": ["How I met your mother? is funny", "Can't go wrong with Friends", "I recommend Parks and Recreation", "The Office is a good one"]
+ },
+ {"tag": "genre_documentary",
+  "patterns": ["Can you recommend a documentary?", "Suggest a documentary", "What's a good documentary?"],
+  "responses": ["Cosmos: A Spacetime Odyssey presented by astrophysicist Neil deGrasse Tyson can be a good option.", "I recommend Food, Inc.", "Check out Citizenfour", "A Plastic Ocean is my recommendation"]
+ },
+ {"tag": "genre_animation",
+  "patterns": ["Can you recommend an animated movie?", "Suggest an animated film", "What's a good animated movie?"],
+  "responses": ["I suggest Toy Story", "Monsters Inc. is a classic", "Incredibles is a good choice", "Cars might be what you're looking for", "Wall-E is an excellent option"]
+ },
+ {"tag": "genre_horror",
+ "patterns": ["Can you recommend a horror movie?", "Suggest a scary movie", "What's a good horror film?"],
+ "responses": ["The Exorcist is a good choice", "I recommend Hereditary", "You could watch The Conjuring", "Maybe The Shining?", "I suggest The Ring"]
+ },
+{"tag": "genre_action",
+ "patterns": ["Can you recommend an action movie?", "Suggest a action film", "What's a good action movie?"],
+ "responses": ["I would recommend The Lord of the Rings: The Return of the King", "Inception is a classic", "I suggest Star Wars (1977)", "Kill Bill is a good one", "Fast & Furious movies are fun"]
+ },
+{"tag": "genre_superhero",
+ "patterns": ["Can you recommend a superhero movie?", "Suggest a superhero film", "What's a good action movie?"],
+ "responses": ["I recommend Spider-man: No Way Home", "You could watch Eternals", "I suggest Injustice", "Shang-Chi and the legend of Ten Rings is a good choice", "Maybe Venom: Let there be carnage?"]
+ },
+{"tag": "genre_sci-fi",
+ "patterns": ["Can you recommend a sci-fi movie?", "Suggest a sci-fi film", "What's a good sci-fi movie?"],
+ "responses": ["Moonfall is an option", "I recommend The Adam Project", "Have you seen Dune?", "You should check out Infinite", "Finch is a good choice", "The Matrix Resurrections is what I suggest"]
+ },
+{"tag": "genre_sports",
+ "patterns": ["Can you recommend a sports movie?", "Suggest a sports film", "What's a good sports movie?"],
+ "responses": ["You should watch King Richard", "The Blind Side is a good option", "Moneyball is a classic", "Check out A league of Their Own", "Ford v Ferrari is just what you're looking for"]
+ },
+{"tag": "genre_history",
+ "patterns": ["Can you recommend a history movie?", "Suggest a historical film", "What's a good history movie?"],
+ "responses": ["You could watch Greyhound", "The King's Man is a good option", "I would suggest Midway", "I recommend The Trial of the Chicago 7", "How about A Hidden Life?", "You should check out Kingdom of Heaven"]
+ },
+{"tag": "genre_romance",
+ "patterns": ["Can you recommend a romance movie?", "Suggest a romantic film", "What's a good romance movie?"],
+ "responses": ["Titanic is a classic", "I suggest Her", "Little Woman is a good choice", "Check out Pretty Woman", "I recommend Midnight in Paris"]
+ },
+{"tag": "genre_crime",
+ "patterns": ["Can you recommend a crime movie?", "Suggest a crime film", "What's a good action crime?"],
+ "responses": ["The Godfather is a classic", "The Many Saints of Newark is new and interesting", "I suggest Joker", "I would recommend Taxi Driver", "Pulp Fiction is a good choice"]
+ },
+{"tag": "genre_short-film",
+ "patterns": ["Can you recommend a short-film?", "Suggest a short-film", "What's a good short-film?"],
+ "responses": ["I recommend Robin Robin", "Affairs of the Art is a good choice", "Check out Bestia", "You should watch Sintel", "Poet Anderson: The Dream Walker is just what you're looking for", "Marvel One-Shot: All Hail the King is a good watch"]
+ },
+{"tag": "genre_adventure",
+ "patterns": ["Can you recommend an adventure movie?", "Suggest an adventure film", "What's a good adventure movie?"],
+ "responses": ["Check out Black Crab", "I would recommend The Ice Age Adventures of Buck Wild", "You'll like Turning Red", "The Pirates: The Last Royal Treasure is a good choice", "The King's Daughter is my recommendation"]
+ },
+{"tag": "genre_musical",
+ "patterns": ["Can you recommend a musical movie?", "Suggest a musical", "What's a good musical?"],
+ "responses": ["I recommend Moulin Rouge", "Aladdin is a classic", "Encanto is new and very good", "I would suggest Les Misérables", "You should watch The Phantom of the Opera at the Royal Albert Hall", "Robin Hood: Men in Tights is a good choice"]
+ },
+{"tag": "genre_thriller",
+ "patterns": ["Can you recommend a thriller movie?", "Suggest a thriller film", "What's a good thriller?"],
+ "responses": ["Old is a good choice", "I would recommend Escape Room", "I suggest Us", "You will not regret watching Night Crawler", "7500 is an interesting option", "You can give it a shot for Kimi"]
+ },
+{"tag": "genre_western",
+ "patterns": ["Can you recommend a western movie?", "Suggest a Westner film", "What's a good westner movie?"],
+ "responses": ["You can give it a shot for Unforgiven", "No Country For Old Men is a must for this category!", "The Power of the Dog can be a good choice", "I would recommend The Harder They Fall", "You will not regret watching Those Who Wish Me Dead"]
+ },
+{"tag": "recommend_best",
+ "patterns": ["Can you recommend a great movie?", "Suggest the best film", "What's a great movie?"],
+ "responses": ["The Shawshank Redemption is a classic", "I would recommend The Dark Knight", "You should watch Pulp Fiction", "CODA has won Best Film recently"]
+ },
+{"tag": "recommend_random",
+ "patterns": ["Can you recommend a random movie?", "Suggest a random film", "What's a good random movie?"],
+ "responses": ["Why don't you check out American Psycho", "I suggest The Thing", "I can recommend Top Gun", "You can try Free Guy"]
+ },
+{"tag": "recommend_new",
+ "patterns": ["Can you recommend a new movie?", "Suggest a new film", "What's a good recent movie?"],
+ "responses": ["I recommend The Batman", "Check out Dune", "You should watch The Last Mountain", "Have you checked out Licorice Pizza?"]
+ },
+ {"tag": "longest_running_shows",
+  "patterns": ["What is a longest running TV show?", "Suggest a long running show"],
+  "responses": ["The Simpsons (1989-present)", "Grey's Anatomy (2005-present)", "Family Guy (1999-present)"]
+ },
+ {"tag": "movie_set_location",
+  "patterns": ["Which movies were filmed in Toronto?", "Name some movies that were shot in Toronto?"],
+  "responses": ["Suicide Squat", "The Incredible Hulk", "X-men", "Good Will Hunting"]
+ },
+ {"tag": "marvel_toronto",
+   "patterns": ["Were any Marvel movies filmed in Toronto?", "Which marvel film was shot in Toronto?"],
+   "responses": ["Yes, The Incredible Hulk takes place in Toronto displaying scenes of U of T's King's College, Knox College and Convocation Hall."]
+}
+]
+}
